@@ -339,12 +339,7 @@ const LandingPage: React.FC = () => {
           )}
         </div>
         
-        <div className="mt-8 bg-blue-50/50 p-4 rounded-2xl border border-blue-100 text-center">
-           <p className="text-[10px] text-blue-600 font-black uppercase tracking-widest leading-relaxed">
-             Google Auth Redirecting to localhost? <br/>
-             <span className="text-gray-500 font-medium normal-case">Add <code className="bg-blue-100 px-1 rounded">{window.location.origin}</code> to your Supabase "Redirect URLs" list.</span>
-           </p>
-        </div>
+
       </div>
     </div>
   );
